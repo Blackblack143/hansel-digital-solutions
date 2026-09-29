@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HANSEL Digital Solutions — web development, UI/UX design, SEO and digital marketing services.">
+<meta name="keywords" content="web development, SEO, digital marketing, freelancer, website, UI/UX design">
+<meta name="author" content="HANSEL Digital Solutions">
+<title>HANSEL Digital Solutions — Web, SEO &amp; Digital Growth</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="loader"><div class="spinner"></div></div>
+
+<a class="skip-link" href="#home">Skip to content</a>
+
+<!-- Background -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo"><span class="logo-mark">H</span>HANSEL</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#services" class="nav-link" data-section="services">Services</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#pricing" class="nav-link" data-section="pricing">Pricing</a>
+      <a href="#faq" class="nav-link" data-section="faq">FAQ</a>
+      <span class="nav-indicator" aria-hidden="true"></span>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta"><span>Let's Talk</span><i data-lucide="arrow-right"></i></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#pricing" class="mobile-link">Pricing</a>
+    <a href="#faq" class="mobile-link">FAQ</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="badge" data-aos="fade-up"><i data-lucide="sparkles"></i> Web · SEO · Digital Growth</span>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="80">
+          We build <span class="gradient-text">digital experiences</span> that grow your business.
+        </h1>
+        <p class="hero-intro" data-aos="fade-up" data-aos-delay="160">
+          HANSEL Digital Solutions designs and builds fast, modern websites — then makes sure
+          people actually find them. Web development, UI/UX design, and SEO under one roof.
+        </p>
+        <div class="hero-cta" data-aos="fade-up" data-aos-delay="220">
+          <a href="#projects" class="btn btn-primary magnetic"><span>View Our Work</span><i data-lucide="arrow-right" class="btn-arrow"></i></a>
+          <a href="#contact" class="btn btn-ghost magnetic"><span>Start a Project</span><i data-lucide="arrow-up-right" class="btn-arrow"></i></a>
+        </div>
+        <div class="hero-trust" data-aos="fade-up" data-aos-delay="280">
+          <div><strong data-count="40">0</strong><span>+ projects shipped</span></div>
+          <div><strong data-count="98">0</strong><span>% client satisfaction</span></div>
+          <div><strong data-count="3">0</strong><span>+ years building online</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-up" data-aos-delay="140">
+        <div class="hero-frame">
+          <img src="images/profile.jpg" alt="Laptop displaying a website builder interface with the tagline 'Build your dream website'" loading="eager">
+          <div class="hero-frame-glow" aria-hidden="true"></div>
+        </div>
+        <div class="floating-chip chip-1"><i data-lucide="code-2"></i><span>Clean Code</span></div>
+        <div class="floating-chip chip-2"><i data-lucide="trending-up"></i><span>SEO Ready</span></div>
+        <div class="floating-chip chip-3"><i data-lucide="smartphone"></i><span>Responsive</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-visual" data-aos="fade-up">
+        <img src="images/landing-page.jpg" alt="Developer working across two monitors, coding on one and designing button interface states on the other" loading="lazy">
+        <div class="about-badge">
+          <strong>3+</strong>
+          <span>Years of hands-on<br>web development</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow" data-aos="fade-up">Who We Are</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Digital solutions built by people who actually ship code.</h2>
+        <p data-aos="fade-up" data-aos-delay="120">
+          HANSEL Digital Solutions is a small, focused studio. We don't hand your project off
+          to a stranger halfway through — the same team that plans your site designs it,
+          builds it, and makes sure search engines can find it.
+        </p>
+        <p data-aos="fade-up" data-aos-delay="160">
+          Whether you need a landing page that converts, a full business website, or ongoing
+          SEO and support, we treat every project like it's our own.
+        </p>
+        <ul class="about-points" data-aos="fade-up" data-aos-delay="200">
+          <li><i data-lucide="check-circle-2"></i> Clean, maintainable code — no bloated templates</li>
+          <li><i data-lucide="check-circle-2"></i> Mobile-first, fast-loading by default</li>
+          <li><i data-lucide="check-circle-2"></i> SEO built in from day one, not bolted on later</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">What We Do</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Services built for growth</h2>
+      <p class="section-sub" data-aos="fade-up" data-aos-delay="100">Everything you need to go from idea to a website that brings in customers.</p>
+
+      <div class="service-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="service-icon"><i data-lucide="code-2"></i></div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive websites built with clean HTML, CSS, and JavaScript — no unnecessary bloat.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="130">
+          <div class="service-icon"><i data-lucide="pen-tool"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>Interfaces designed around how real people browse, click, and decide to buy.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="service-icon"><i data-lucide="search"></i></div>
+          <h3>SEO Optimization</h3>
+          <p>On-page SEO, site speed, and structure work so your site actually gets found on Google.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="230">
+          <div class="service-icon"><i data-lucide="megaphone"></i></div>
+          <h3>Digital Marketing</h3>
+          <p>Content and campaign support to bring the right visitors to your new site.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="280">
+          <div class="service-icon"><i data-lucide="smartphone"></i></div>
+          <h3>App Development</h3>
+          <p>Lightweight web apps and tools tailored to how your business actually works.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="330">
+          <div class="service-icon"><i data-lucide="shopping-cart"></i></div>
+          <h3>E-commerce Solutions</h3>
+          <p>Product catalogs, carts, and checkout flows that make buying from you effortless.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">Toolkit</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Skills we bring to every project</h2>
+
+      <div class="skills-grid">
+        <div class="skill" data-aos="fade-up" data-aos-delay="80">
+          <div class="skill-head"><span>HTML5</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="90%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="110">
+          <div class="skill-head"><span>CSS3</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="140">
+          <div class="skill-head"><span>JavaScript</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="70%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="170">
+          <div class="skill-head"><span>SEO</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-head"><span>WordPress</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="230">
+          <div class="skill-head"><span>Figma / UI Design</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="260">
+          <div class="skill-head"><span>Git &amp; GitHub</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill" data-aos="fade-up" data-aos-delay="290">
+          <div class="skill-head"><span>Excel / Reporting</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="progress-fill" data-width="90%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-banner">
+    <div class="section-inner stats-inner">
+      <div class="stat" data-aos="fade-up"><strong data-count="40">0</strong><span>+ Projects Completed</span></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="60"><strong data-count="25">0</strong><span>+ Happy Clients</span></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="120"><strong data-count="3">0</strong><span>+ Years Experience</span></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="180"><span class="stat-text">24/7</span><span>Support Available</span></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">Our Work</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Selected projects</h2>
+      <p class="section-sub" data-aos="fade-up" data-aos-delay="100">A mix of client work and self-directed builds across front-end and full-stack.</p>
+
+      <div class="filter-btns" data-aos="fade-up" data-aos-delay="140">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+      </div>
+
+      <div class="project-container">
+        <div class="project-card" data-category="html-css" data-aos="fade-up" data-aos-delay="80">
+          <div class="project-img"><img src="images/portfolio.jpg" alt="Close-up of PHP template code on a screen" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">HTML · CSS</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A clean, responsive portfolio template built from scratch with semantic HTML and custom CSS.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="js" data-aos="fade-up" data-aos-delay="140">
+          <div class="project-img"><img src="images/calculator.jpg" alt="Developer's workstation used to build a JavaScript calculator app" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>JavaScript Calculator App</h3>
+            <p>A fully functional calculator with keyboard support and a clean, distraction-free interface.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="js" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-img"><img src="images/landing-page.jpg" alt="Screen showing button UI states being designed for a landing page" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>Business Landing Page</h3>
+            <p>A conversion-focused landing page with interactive UI states and smooth scroll animations.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-icon" data-category="html-css" data-aos="fade-up" data-aos-delay="260">
+          <div class="project-img project-img-icon"><i data-lucide="shopping-cart"></i></div>
+          <div class="project-body">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>E-commerce Storefront UI</h3>
+            <p>A product grid, cart drawer, and checkout flow prototype built for a small retail client.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-icon" data-category="html-css" data-aos="fade-up" data-aos-delay="320">
+          <div class="project-img project-img-icon"><i data-lucide="search"></i></div>
+          <div class="project-body">
+            <span class="project-tag">SEO · Reporting</span>
+            <h3>SEO Audit Dashboard</h3>
+            <p>A simple, visual audit report template used to present SEO findings to clients.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-icon" data-category="js" data-aos="fade-up" data-aos-delay="380">
+          <div class="project-img project-img-icon"><i data-lucide="layout-dashboard"></i></div>
+          <div class="project-body">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>Client Dashboard UI</h3>
+            <p>An interactive admin dashboard concept with charts, filters, and a dark interface.</p>
+            <a href="https://github.com/hansel-digital-solutions" target="_blank" rel="noopener" class="project-link">View Project <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">Client Feedback</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">What clients say</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p>"HANSEL rebuilt our site from the ground up and our search traffic nearly doubled within two months. Communication was clear the entire way."</p>
+          <div class="testimonial-author"><strong>Ahmed R.</strong><span>Retail Business Owner</span></div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="140">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p>"Fast, professional, and genuinely good at explaining technical decisions in plain language. Exactly what a small business needs."</p>
+          <div class="testimonial-author"><strong>Sara M.</strong><span>Startup Founder</span></div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p>"The landing page they built converts noticeably better than our old one. Clean design, loads instantly, works great on mobile."</p>
+          <div class="testimonial-author"><strong>Bilal K.</strong><span>Marketing Manager</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">Pricing</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Simple, transparent packages</h2>
+      <p class="section-sub" data-aos="fade-up" data-aos-delay="100">Pick a starting point — every project is scoped to your actual needs before we begin.</p>
+
+      <div class="pricing-container">
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="80">
+          <h3>Basic</h3>
+          <p class="price">$20</p>
+          <ul>
+            <li><i data-lucide="check"></i> 1 page website</li>
+            <li><i data-lucide="check"></i> Responsive design</li>
+            <li><i data-lucide="check"></i> Basic SEO setup</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-block">Get Started</a>
+        </div>
+        <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="140">
+          <span class="pricing-badge">Most Popular</span>
+          <h3>Standard</h3>
+          <p class="price">$50</p>
+          <ul>
+            <li><i data-lucide="check"></i> Up to 5 pages</li>
+            <li><i data-lucide="check"></i> Responsive design</li>
+            <li><i data-lucide="check"></i> On-page SEO</li>
+            <li><i data-lucide="check"></i> Contact form</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Professional</h3>
+          <p class="price">$100</p>
+          <ul>
+            <li><i data-lucide="check"></i> Up to 10 pages</li>
+            <li><i data-lucide="check"></i> Responsive design</li>
+            <li><i data-lucide="check"></i> Full SEO setup</li>
+            <li><i data-lucide="check"></i> Contact form</li>
+            <li><i data-lucide="check"></i> Custom JavaScript features</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-block">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-inner">
+      <span class="eyebrow" data-aos="fade-up">Questions</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Frequently asked questions</h2>
+
+      <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+        <div class="faq-item">
+          <button class="faq-question"><span>What technologies do you use?</span><i data-lucide="plus"></i></button>
+          <div class="faq-answer"><p>Mainly HTML, CSS, and JavaScript on the front end, with WordPress or PHP where a client needs a content-managed or dynamic site.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question"><span>Do you create responsive websites?</span><i data-lucide="plus"></i></button>
+          <div class="faq-answer"><p>Yes — every site we build is tested across desktop, tablet, and mobile before it ships.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question"><span>Can you optimize websites for SEO?</span><i data-lucide="plus"></i></button>
+          <div class="faq-answer"><p>Yes, both basic on-page SEO and more advanced technical SEO — site speed, structure, and metadata.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question"><span>How long does a website take?</span><i data-lucide="plus"></i></button>
+          <div class="faq-answer"><p>Usually 1–2 weeks for a standard site, depending on the number of pages and how much custom functionality is needed.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question"><span>How can I contact you?</span><i data-lucide="plus"></i></button>
+          <div class="faq-answer"><p>Use the contact form below, or reach out directly by email — details are in the footer.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy" data-aos="fade-up">
+        <span class="eyebrow">Get In Touch</span>
+        <h2 class="section-title">Let's build something together</h2>
+        <p>Tell us a little about your project and we'll get back to you within one business day.</p>
+        <div class="contact-info">
+          <a href="mailto:hello@hanseldigital.com" class="contact-item"><i data-lucide="mail"></i><span>hello@hanseldigital.com</span></a>
+          <a href="#" class="contact-item"><i data-lucide="linkedin"></i><span>linkedin.com/company/hansel-digital</span></a>
+          <a href="https://github.com/hansel-digital-solutions" class="contact-item"><i data-lucide="github"></i><span>github.com/hansel-digital-solutions</span></a>
+        </div>
+      </div>
+
+      <form id="contact-form" class="contact-form" data-aos="fade-up" data-aos-delay="100" novalidate>
+        <div class="form-row">
+          <div class="form-group"><label for="cf-name">Your Name</label><input type="text" id="cf-name" name="name" required></div>
+          <div class="form-group"><label for="cf-email">Your Email</label><input type="email" id="cf-email" name="email" required></div>
+        </div>
+        <div class="form-group"><label for="cf-subject">Subject</label><input type="text" id="cf-subject" name="subject" required></div>
+        <div class="form-group"><label for="cf-message">Your Message</label><textarea id="cf-message" name="message" rows="5" required></textarea></div>
+        <button type="submit" class="btn btn-primary btn-block"><span>Send Message</span><i data-lucide="send"></i></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="#home" class="nav-logo"><span class="logo-mark">H</span>HANSEL</a>
+      <p>Web development, design, and SEO for businesses that want to grow online.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/hansel-digital-solutions" aria-label="GitHub"><i data-lucide="github"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Web Development</a>
+      <a href="#services">UI/UX Design</a>
+      <a href="#services">SEO Optimization</a>
+      <a href="#services">Digital Marketing</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <span><i data-lucide="mail"></i> hello@hanseldigital.com</span>
+      <span><i data-lucide="phone"></i> +92 300 1234567</span>
+      <span><i data-lucide="map-pin"></i> Remote &amp; on-site, Pakistan</span>
+    </div>
+  </div>
+  <div class="footer-line" aria-hidden="true"></div>
+  <div class="footer-bottom">© 2026 HANSEL Digital Solutions. All rights reserved.</div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
